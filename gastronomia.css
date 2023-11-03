@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.titulo-final{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to top, hsla(293, 82%, 2%, 0.35), hsla(0, 0%, 0%, 0.406)),url(https://visitarsanluis.com/storage/app/media/uploaded-files/Noticias%20SLN%20-%202023-05-11T200226.725.jpg); 
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+
+header .textos-header{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 3em;
+    color: #fff;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.slider-frame {
+	width: 1280px;
+    height: 85vh;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    object-fit: cover;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+p{
+    font-size: 1.4em;
+    text-align: center;
+}
